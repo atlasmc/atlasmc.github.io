@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Dalek';
+    src: url('../fonts/Dalek.eot');
+    src: url('../fonts/Dalek.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Dalek.woff2') format('woff2'),
+        url('../fonts/Dalek.woff') format('woff'),
+        url('../fonts/Dalek.ttf') format('truetype'),
+        url('../fonts/Dalek.svg#Dalek') format('svg');
+    font-display: swap;
+}
+
+
 *{
   margin: 0;
   padding: 0;
@@ -8,7 +20,7 @@
   top: 0;
   left: 0;
   font-family: 'dalek';
-  src: url('../Dalek.ttf');
+  src: url('../Dalek.ttf') format('truetype');
   display: flex;
   font-size: 2em;
   justify-content: space-between;

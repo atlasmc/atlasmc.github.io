@@ -19,8 +19,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  font-family: 'dalek';
-  src: url('../Dalek.ttf') format('truetype');
+  font-family: 'Dalek';
   display: flex;
   font-size: 2em;
   justify-content: space-between;
